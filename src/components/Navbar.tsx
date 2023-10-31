@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div>
-        <div className="bg-white flex justify-end items-center  sticky h-20 font-semibold shadow-sm mr-16 top-4 space-x-7" >
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Projects</a>
-            <a href="">Contact</a>
-        </div>
-    </div>
+      <div className="bg-white flex justify-end sticky top-0  h-20  items-center font-semibold shadow-md " >
+          <div className='links mr-5 '>
+            <a className='m-2' href="">Home</a>
+            <a className='m-2'href="">About</a>
+            <a className='m-2'href="">Projects</a>
+            <a className='m-2'href="">Contact</a>
+          </div>
+      </div>
   )
 }
