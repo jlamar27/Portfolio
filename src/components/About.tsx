@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className='about-container mx-20 py-24'>
-      <section className='about-content grid grid-cols-2'>
+    <div className='about-container py-32 bg-white'>
+      <section className='about-content flex gap-8 mx-10 '>
         <div className='about-image'>
           <img src="/about-image.webp" alt="about image" />
         </div>

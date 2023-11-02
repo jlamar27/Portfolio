@@ -6,8 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'headshot': 'url("/Users/juanlamar/portfolio/public/headshot.jpeg")',
+      colors: {
+        'bold': '#2d2e32',
+        'light': '#767676'
       },
     },
   },
