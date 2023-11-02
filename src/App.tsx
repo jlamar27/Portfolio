@@ -10,14 +10,11 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  // component for navbar .. home about project contact (sticky)
-  // component for about me
-  // tech stack with tech logos
-  // component for each portfolio peace with link to live demo
+  <script src="https://cdn.jsdelivr.net/npm/mailtoui@1.0.3/dist/mailtoui-min.js"></script>
 
 
   return (
-    <div className='w-full'>
+    <div className='w-full bg-neutral-50'>
       <Navbar />
       <Hero />
       <About />

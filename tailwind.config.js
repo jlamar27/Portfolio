@@ -1,16 +1,14 @@
-import('tailwindcss').Config
-
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'headshot': 'url("/Users/juanlamar/portfolio/public/headshot.jpeg")',
+      colors: {
+        'bold': '#2d2e32',
+        'light': '#767676'
       },
     },
   },
   plugins: [],
 }
-
