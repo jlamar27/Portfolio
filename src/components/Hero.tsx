@@ -1,9 +1,10 @@
 import React from 'react';
 import { GithubSVG, LinkedinSVG } from '../svg/SVG';
+import { Icons } from '../Icons/Icons';
 
 export default function Hero() {
     return (
-        <section className='hero h-screen -mt-16'>
+        <section className='hero-screen h-screen -mt-16' id='hero-screen'>
             <div className='hero-container mx-auto '>
                 <div className='hero-content flex flex-col items-center justify-center
                 gap-y-12 gap-x-40 mx-52 pt-36' >
@@ -28,19 +29,9 @@ export default function Hero() {
                             />
                         </div>
                     </div>
-                    <div className='tech-stack items-center  flex mx-40 w-full justify-start   '>
+                    <div className='tech-stack items-center flex mx-40 w-full justify-start m-0   '>
                         <p className='border-r-2 pr-6 mr-12'>Tech Stack</p>
-                        <ul className='flex gap-3'>
-                            <li className='transform hover:translate-y2'>
-                                <img src="https://skillicons.dev/icons?i=html,css" alt="icons" />
-                            </li>
-                            <li>
-                                <img src="https://skillicons.dev/icons?i=js,ts" alt="icons" />
-                            </li>
-                            <li>
-                                <img src="https://skillicons.dev/icons?i=react,tailwind" alt="icons" />
-                            </li>
-                        </ul>
+                        <Icons />
                     </div>
                 </div>
             </div>
