@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <div className='w-full bg-neutral-50'>
+    <div className='w-full bg-neutral-50 m-0 p-0'>
       <Navbar />
       <Hero />
       <About />

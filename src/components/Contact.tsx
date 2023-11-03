@@ -9,7 +9,7 @@ export default function Contact() {
           <h3 className='uppercase font-bold text-lg text-blue-500'> Contact</h3>
           <h3 className='font-bold'>Feel free to reach out</h3>
         </div>
-        <a className='mailtoui flex' href="mailto:juanlamar.tech@gmail.com" >
+        <a className='mailtoui flex' href="mailto:juanlamar.tech@gmail.com?subject=Inquiry" >
           <MailSVG />
           Send Inquiry
           </a>

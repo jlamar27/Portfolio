@@ -21,13 +21,6 @@ export default function Hero() {
                                 </a>
                             </span>
                         </div>
-                        <div className='hero-image'>
-                            <img
-                                src="/headshot.jpeg"
-                                alt="headshot"
-                                className=' h-[30rem] w-[30rem] rounded-md'
-                            />
-                        </div>
                     </div>
                     <div className='tech-stack items-center flex mx-40 w-full justify-start m-0   '>
                         <p className='border-r-2 pr-6 mr-12'>Tech Stack</p>
