@@ -16,6 +16,12 @@
         @apply m-5 flex flex-grow flex-shrink h-[20rem]
     }
     .project-image{
-        @apply overflow-hidden rounded-xl
+        @apply overflow-hidden rounded-xl w-7/12
+    }
+    .img-hover-scroll {
+        @apply transform hover:-translate-y-[1179px] ease-in duration-1000;
+    }
+    .project-text {
+        @apply flex flex-col justify-center items-center w-5/12
     }
 }
