@@ -13,8 +13,9 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-white flex justify-end sticky top-0 h-20 items-center font-semibold shadow-md z-10">
-      <div className='links mr-5'>
+    <div className="bg-white flex sticky top-0 h-20 items-center shadow-md z-10 justify-between">
+      <span className='mx-10'>Juan Lamar</span>
+      <div className='links font-semibold mx-10'>
         <a className='m-2' href="#hero-screen" onClick={(e) => scrollToDiv(e, 'hero-screen')}>Home</a>
         <a className='m-2' href="" onClick={(e) => scrollToDiv(e, 'about-screen')}>About</a>
         <a className='m-2' href="" onClick={(e) => scrollToDiv(e, 'project-screen')}>Projects</a>

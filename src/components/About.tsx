@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className='about-screen bg-white' id='about-screen'>
         <div className='about-container h-full mx-auto py-32 w-[1024px]'>
-        <section className='about-content flex align-middle gap-16 '>
+        <section className='about-content flex align-middle gap-16 flex-shrink '>
           <div className='about-image'>
             <img className='h-[35] w-[41] rounded-3xl' src="/about-image.webp" alt="about image" />
           </div>

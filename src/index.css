@@ -9,5 +9,13 @@
     .last-icon {
         @apply transform hover:-translate-y-2 ease-in duration-300;
     }
-
+    .project-display-container {
+        @apply bg-white my-8 rounded-3xl shadow-lg
+    }
+    .project-card {
+        @apply m-5 flex flex-grow flex-shrink h-[20rem]
+    }
+    .project-image{
+        @apply overflow-hidden rounded-xl
+    }
 }
