@@ -2,20 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer hero {
     .icon {
         @apply mr-4 transform hover:-translate-y-2 ease-in duration-300;
     }
     .last-icon {
         @apply transform hover:-translate-y-2 ease-in duration-300;
     }
-    .project-display-container {
-        @apply bg-white my-8 rounded-3xl shadow-lg
+    .project-grid{
+        @apply grid h-full grid-cols-1 mt-8 mb-24 
     }
-    .project-card {
-        @apply m-5 flex flex-grow flex-shrink h-[20rem]
     }
+    [class^="project-card-"]  {
+        @apply  bg-neutral-50 flex h-[23rem] p-3 my-5 rounded-xl shadow-lg gap-28
+    }  
     .project-image{
-        @apply overflow-hidden rounded-xl
+        @apply overflow-hidden rounded-xl w-[53rem]
     }
+    .img-hover-scroll {
+        @apply transform hover:-translate-y-[1179px] ease-in duration-1000;
+    }
+    .project-text-stack-link-container {
+        @apply flex flex-col justify-evenly items-center w-[30rem] uppercase 
+    }
+    .project-text {
+        @apply flex flex-col justify-center items-center h-auto m-[1rem]
+    }
+    .project-stack {
+        @apply flex normal-case gap-4 justify-center
+    }
+    .project-stack-container{
+        @apply bg-white py-4 px-5 shadow-md
+    }
+    .project-links {
+        @apply flex gap-4
+    }
+
+@layer navbar {
+    
 }
