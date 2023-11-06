@@ -6,8 +6,7 @@ export default function Navbar() {
     divId: string,
   ) => {
     event.preventDefault();
-    const div = document.getElementById(divId);
-    console.log(div);
+    const div = document.getElementById(divId);;
     if (div) {
       div.scrollIntoView({
         behavior: "smooth",
@@ -21,28 +20,28 @@ export default function Navbar() {
       <div className="links mx-10 font-semibold">
         <a
           className="m-2"
-          href="#hero-screen"
+          href="Home"
           onClick={(e) => scrollToDiv(e, "hero-screen")}
         >
           Home
         </a>
         <a
           className="m-2"
-          href=""
+          href="About"
           onClick={(e) => scrollToDiv(e, "about-screen")}
         >
           About
         </a>
         <a
           className="m-2"
-          href=""
+          href="Projects"
           onClick={(e) => scrollToDiv(e, "project-screen")}
         >
           Projects
         </a>
         <a
           className="m-2"
-          href=""
+          href="Contact"
           onClick={(e) => scrollToDiv(e, "contact-screen")}
         >
           Contact

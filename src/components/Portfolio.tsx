@@ -8,13 +8,7 @@ export default function Portfolio() {
         <div className="portfolio-text text-left ">
           <h4>Portfolio</h4>
         </div>
-        <div className="project-grid grid h-full grid-cols-1 ">
-          <div className="project-display-container">
-            <div className="project-card">
-              <ProjectCard />
-            </div>
-          </div>
-        </div>
+        <ProjectCard />
       </div>
     </div>
   );
