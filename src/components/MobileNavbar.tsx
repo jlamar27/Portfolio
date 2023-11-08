@@ -1,11 +1,9 @@
-import React, { useState } from "react";
-import { MenuSVG } from "../svg/SVG";
+import React from "react";
+import { XIcon } from "../svg/SVG";
 import { useMenuContext } from "../context/openNabar";
 
-
-
-export default function Navbar() {
-  const {toggleMenuIsClicked} =useMenuContext()
+export default function MobileNavbar() {
+  const {menuIsClicked, toggleMenuIsClicked} = useMenuContext()
 
   const scrollToDiv = (
     event: React.MouseEvent<HTMLAnchorElement>,
@@ -20,13 +18,17 @@ export default function Navbar() {
     }
   };
 
-  
-
   return (
-    <div className="nav">
-      <div className="nav-container">
-        <span className="">Juan Lamar</span>
-        <ul className="font-semibold flex">
+    <div className={menuIsClicked ? 'mobile-nav open-menu': 'mobile-nav closed-menu'}>
+      <span 
+      className="w-1/12 cursor-pointer absolute top-8 right-8"
+      onClick={toggleMenuIsClicked}
+      >
+        <XIcon />
+      </span>
+      
+      <ul className="flex flex-col gap-8 text-[2.3rem]  ">
+        <li>
           <a
             className="m-2"
             href="Home"
@@ -34,6 +36,8 @@ export default function Navbar() {
           >
             Home
           </a>
+        </li>
+        <li>
           <a
             className="m-2"
             href="About"
@@ -41,6 +45,8 @@ export default function Navbar() {
           >
             About
           </a>
+        </li>
+        <li>
           <a
             className="m-2"
             href="Projects"
@@ -48,6 +54,8 @@ export default function Navbar() {
           >
             Projects
           </a>
+        </li>
+        <li>
           <a
             className="m-2"
             href="Contact"
@@ -55,11 +63,8 @@ export default function Navbar() {
           >
             Contact
           </a>
-          <span onClick={toggleMenuIsClicked}>
-            <MenuSVG />
-          </span>
-        </ul>
-      </div>
+        </li>
+      </ul>
     </div>
   );
 }

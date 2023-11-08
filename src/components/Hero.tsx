@@ -5,7 +5,7 @@ import { Icons } from "../Icons/Icons";
 export default function Hero() {
   return (
     <section className="hero-screen -mt-16 h-screen" id="hero-screen">
-      <div className="hero-container mx-auto w-[1024px] pt-[200px] ">
+      <div className="hero-container mx-auto pt-[200px] ">
         <div className="hero-content flex flex-col  gap-y-12 pt-36">
           <div className="hero-main flex gap-40">
             <div className="hero-text flex max-w-3xl flex-col">

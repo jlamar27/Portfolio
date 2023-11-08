@@ -4,7 +4,7 @@ import { MailSVG } from "../svg/SVG";
 export default function Contact() {
   return (
     <div className="contact-screen h-[400px] bg-white" id="contact-screen">
-      <div className="contact-container mx-auto h-full w-[1024px] items-center py-[104px] ">
+      <div className="contact-container mx-auto h-full  items-center py-[104px] ">
         <div className="call-to-action my-5">
           <h3 className="text-lg font-bold uppercase text-blue-500">
             {" "}

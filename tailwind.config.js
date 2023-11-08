@@ -6,6 +6,9 @@ module.exports = {
         bold: "#2d2e32",
         light: "#767676",
       },
+      screens: {
+        '900': '900px',
+      },
     },
   },
   plugins: [],

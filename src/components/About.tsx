@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="about-screen bg-white" id="about-screen">
-      <div className="about-container mx-auto h-full w-[1024px] py-32">
+      <div className="about-container mx-auto h-full py-32">
         <section className="about-content flex flex-shrink gap-16 align-middle ">
           <div className="about-image">
             <img
