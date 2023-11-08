@@ -4,13 +4,13 @@ import { Icons } from "../Icons/Icons";
 
 export default function Hero() {
   return (
-    <section className="hero-screen -mt-16 h-screen" id="hero-screen">
-      <div className="hero-container mx-auto pt-[200px] ">
-        <div className="hero-content flex flex-col  gap-y-12 pt-36">
-          <div className="hero-main flex gap-40">
-            <div className="hero-text flex max-w-3xl flex-col">
-              <h1 className="text-6xl text-bold">Software Developer</h1>
-              <p className="my-5 text-lg text-light ">
+    <section className="hero-screen" id="hero-screen" >
+      <div className="hero-container">
+        <div className="hero-content">
+          <div className="hero-main ">
+            <div className="hero-text">
+              <h1 className="mb-4 text-6xl text-bold">Software Developer</h1>
+              <p>
                 Hi, I'm Juan Lamar. A passionate Software Developer.
               </p>
               <span className="flex gap-3">
@@ -31,8 +31,8 @@ export default function Hero() {
               </span>
             </div>
           </div>
-          <div className="tech-stack flex items-center justify-start">
-            <p className="mr-12 border-r-2 pr-6">Tech Stack</p>
+          <div className="tech-stack">
+            <p>Tech Stack</p>
             <Icons />
           </div>
         </div>

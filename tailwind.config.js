@@ -7,7 +7,7 @@ module.exports = {
         light: "#767676",
       },
       screens: {
-        '900': '900px',
+        '900': {'max':'900px'},
       },
     },
   },

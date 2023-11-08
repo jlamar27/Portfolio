@@ -37,7 +37,7 @@ export const MenuSVG = () => (
     fill-rule="evenodd"
     stroke-linejoin="round"
     stroke-miterlimit="2"
-    viewBox="0 0 12 12"
+    viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path

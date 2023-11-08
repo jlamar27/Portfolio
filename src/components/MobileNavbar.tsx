@@ -15,6 +15,8 @@ export default function MobileNavbar() {
       div.scrollIntoView({
         behavior: "smooth",
       });
+      console.log(div)
+      toggleMenuIsClicked()
     }
   };
 
@@ -27,12 +29,12 @@ export default function MobileNavbar() {
         <XIcon />
       </span>
       
-      <ul className="flex flex-col gap-8 text-[2.3rem]  ">
+      <ul className="flex flex-col gap-8 text-[2rem]  ">
         <li>
           <a
             className="m-2"
             href="Home"
-            onClick={(e) => scrollToDiv(e, "hero-screen")}
+            onClick={(e) => scrollToDiv(e, "hero-screen")}  
           >
             Home
           </a>

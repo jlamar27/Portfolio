@@ -17,6 +17,7 @@ export default function Navbar() {
       div.scrollIntoView({
         behavior: "smooth",
       });
+      toggleMenuIsClicked()
     }
   };
 
@@ -55,7 +56,10 @@ export default function Navbar() {
           >
             Contact
           </a>
-          <span onClick={toggleMenuIsClicked}>
+          <span 
+          onClick={toggleMenuIsClicked}
+          className="menu-svg"
+          >
             <MenuSVG />
           </span>
         </ul>
